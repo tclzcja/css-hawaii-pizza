@@ -1,0 +1,38 @@
+@import "./normalize.css";
+
+delicious-soap {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e4ebf5;
+}
+
+delicious-soap > div {
+	height: 300px;
+	width: 400px;
+	border-radius: 20px;
+	transition: box-shadow 2s;
+	transition-delay: 2s;
+	position: relative;
+}
+
+delicious-soap.on > div {
+	box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.3), 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+delicious-soap > div > div {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	right: 50px;
+	bottom: 50px;
+	border-radius: 20px;
+	transition-delay: 6s;
+	transition: box-shadow 2s;
+}
+
+delicious-soap.on > div > div {
+	box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.3), inset 10px 10px 10px rgba(0, 0, 0, 0.1);
+}

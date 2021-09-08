@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 100%;
+	box-sizing: border-box;
+	font-size: inherit;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+::placeholder {
+	opacity: 0.25;
+	color: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+a:not([href]) {
+	cursor: default;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+button {
+	appearance: none;
+	border: none;
+	background-color: transparent;
+}
+
+object {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	stroke: inherit;
+	fill: inherit;
+	overflow: visible;
+	pointer-events: none;
+}
+
+label {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+input {
+	height: 100%;
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+	color: inherit;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+input[type="radio"] {
+	width: auto;
+	height: auto;
+}
+
+select {
+	border: none;
+	width: auto;
+}
+
+textarea {
+	resize: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.material-icons-outlined {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	flex-shrink: 0;
+}
